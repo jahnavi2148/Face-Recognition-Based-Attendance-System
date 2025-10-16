@@ -1,0 +1,12 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.log
+
+# Trained ML Model (do not commit large binary files)
+*.pkl
+static/face_recognition_model.pkl
+
+# Data and Logs (do not commit user data or dynamically generated files)
+static/faces/
+Attendance/
